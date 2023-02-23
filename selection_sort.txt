@@ -1,4 +1,4 @@
-[7,3,5,8,2,9,4,15,6]
+[7,3,5,8,2,9,4,15,6] -> Selection Sort
 
 1- Birinci adımda dizideki en küçük sayı bulunur ve ilk indisle yer değiştirir.
 [2,3,5,8,7,9,4,15,6]
