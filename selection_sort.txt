@@ -1,0 +1,13 @@
+[7,3,5,8,2,9,4,15,6]
+
+1- Birinci adımda dizideki en küçük sayı bulunur ve ilk indisle yer değiştirir.
+[2,3,5,8,7,9,4,15,6]
+
+2- İkinci adımda ilk eleman sabit kalarak diğer en küçük eleman bulunur ve ikinci indise yerleşir. 3 sayısı zaten en küçük sayıdır ve değişim olmaz.
+[2,3,5,8,7,9,4,15,6]
+
+3- Üçüncü adımda ilk 2 eleman sabit kalır ve diğer en küçük eleman bulunarak üçüncü indis ile yer değiştirir.
+[2,3,4,8,7,9,5,15,6]
+
+4- Dördüncü adımda ilk 3 eleman sabit kalır ve diğer en küçük eleman bulunarak dördüncü indis ile yer değiştirir.
+[2,3,4,5,7,9,8,15,6]
