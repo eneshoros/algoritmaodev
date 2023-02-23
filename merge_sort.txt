@@ -1,0 +1,17 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1- Dizi her eleman tek olana kadar ikiye parçalanır.
+16|21|11            8|12|22
+16|21   11          8|12    22
+16  21  11          8   12  22
+
+2- Daha sonra sıralı ikili diziler oluşturulur.İlk sıralı sütun:
+16  11|21           8   12|22
+
+3- Daha sonra sıralı ikililer diğer sıralılarla karşılaştırılarak birleştirilirken sıralanır.
+11|16|21            8|12|22
+
+4- Bu son adımda kalan iki sıralı dizi için birleştirme işlemi yapılır ve algoritma sonlandırılır.
+8|11|12|16|21|22
+
+Big O Notation Gösterimi : O(n*logn)
